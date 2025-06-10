@@ -31,9 +31,17 @@ const Home = () => {
     <Box>
       <HeroBanner />
 
-      <Container sx={{ mt: 6 }}>
-        <Typography variant="h5" gutterBottom>
+      <Container sx={{ my: 8 }}>
+        <Typography variant="h4" align="center" fontWeight="bold" gutterBottom>
           Find Classes Near You
+        </Typography>
+        <Typography
+          variant="subtitle1"
+          align="center"
+          color="text.secondary"
+          gutterBottom
+        >
+          Browse popular dance and music sessions from verified studios.
         </Typography>
 
         <SearchBar />
